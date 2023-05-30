@@ -1,0 +1,181 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4bc3cc;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-height: 30px;
+}
+
+.header-info {
+  text-align: right;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 50px;
+}
+
+/* Restante do código */
+
+#comunidade {
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.barra {
+  width: 50px;
+  height: 2px;
+  background-color: rgb(21, 80, 255);
+  border: none;
+  margin: 10px auto;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.card img {
+  width: 150px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card-info h3 {
+  font-weight: bold;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.text {
+  flex: 1;
+}
+
+.text h2 {
+  font-size: 24px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.image {
+  flex: 1;
+  text-align: center;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.content {
+  text-align: center;
+}
+
+.pricing {
+  text-align: center;
+}
+
+.plans {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.plan {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.contact {
+  text-align: center;
+}
+
+form input,
+form textarea,
+form button {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+script {
+  display: none;
+}
